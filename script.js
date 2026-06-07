@@ -28,3 +28,9 @@ const favoriteSubject = "Computer Science";
 const favoriteSubjectSentence = "My favorite subject is " + favoriteSubject + ".";
 console.log(favoriteSubjectSentence);
 
+document.getElementById("btn").addEventListener("click", function () {
+  const name = document.getElementById("nameInput").value;
+  document.getElementById("message").textContent = "Hello " + name + "!";
+});
+
+
